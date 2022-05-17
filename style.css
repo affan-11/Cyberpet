@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    height: 100vh;
+    background: linear-gradient(to left,#ffffff,#ff94e4);
+    font-family: "Oleo Script Swash Caps";
+    
+    
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding:45px;
+    border:  black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.2);
+    border-radius: 8px;
+}
+
+h1{
+    margin: 20px;
+    font-size: 5rem;
+    color: rgb(0, 0, 0)
+}
+
+.container {
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+    /* border: red solid 2px; */
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 80px;
+    /* border: solid rgb(0, 0, 0) 2px; */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 1000px;
+    /* border: solid rgb(46, 0, 155) 2px; */
+
+}
+
+#health, #hunger, #energy, #thirst {
+    display: flex;
+    font-size: 30px;
+    /* border: solid green 2px; */
+}
+
+p {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 220px;
+
+}
+
+.btn, .btn2, .btn3, .btn4{
+   
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family:"Kanit";
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover, .btn2:hover, .btn3:hover, .btn4:hover {
+    background: #dc99fd;
+    background-image: -webkit-linear-gradient(top, #ffffff,#ff94e4);
+    background-image: -moz-linear-gradient(top,#ffffff,#ff94e4);
+    background-image: -ms-linear-gradient(top, #ffffff,#ff94e4);
+    background-image: -o-linear-gradient(top, #ffffff,#ff94e4);
+    background-image: linear-gradient(to bottom, #ffffff,#ff94e4);
+    text-decoration: none;
+  }
+
+  
